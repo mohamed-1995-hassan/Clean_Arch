@@ -61,10 +61,6 @@
     <Compile Include="Repositories\StudentRepository.cs" />
     <Compile Include="Services\IStudentRepository.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202110030842205_FirstMigration.resx">

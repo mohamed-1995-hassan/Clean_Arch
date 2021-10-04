@@ -17,7 +17,7 @@ namespace DataAccessLayer.Repositories
         public StudentRepository()
         {
             this._context = new StudentDBContext();
-            table = _context.Set<T>();
+            table = _context.Set<T>();  
         }
         
         public IEnumerable<T> GetAll()
